@@ -6,3 +6,4 @@ To install the project: yarn install
 To run server:  nodemon server/app.js
 ---
 To run client: yarn start
+---
