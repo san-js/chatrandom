@@ -8,7 +8,6 @@ To run server:  nodemon server/app.js
 To run client: yarn start
 ---
 
-https://www.linkedin.com/in/gurpreet-singh-ny/
 
 https://forums.mulesoft.com/questions/60717/how-to-set-cookie-in-rest-service-please-provide-e.html
 
