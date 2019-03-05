@@ -7,30 +7,19 @@ To run server:  nodemon server/app.js
 ---
 To run client: yarn start
 ---
+https://github.com/appbaseio/reactivesearch/tree/dev/packages/web
+https://medium.appbase.io/v2-ui-components-for-elasticsearch-23743d9a1070
+https://opensource.appbase.io/reactive-manual/getting-started/componentsindex.html
 
+https://www.elastic.co/blog/what-is-an-elasticsearch-index
+https://qbox.io/blog/how-to-use-elasticsearch-to-visualize-data
 
-https://forums.mulesoft.com/questions/60717/how-to-set-cookie-in-rest-service-please-provide-e.html
-
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
-
-https://github.com/cypress-io/cypress/issues/1074
-
-https://www.mulesoft.org/docs/site/3.8.0/apidocs/org/mule/transport/http/CookieHelper.html
-
-https://stackoverflow.com/questions/28197673/how-to-get-the-incoming-cookies-to-a-mule-http-end-point --
-
-
-
----
-http://stawhatluffy11mulesoft.blogspot.com/2016/01/how-to-use-jdbc-store-with-mule-objects.html
-https://dzone.com/articles/custom-object-store-in-mule
-https://www.ricston.com/blog/mule-object-store-jdbc/
-http://meosjdbc.blogspot.com/2016/01/mule-object-store-jdbc.html
-
-https://stackoverflow.com/questions/22376284/mule-persistent-object-store-backed-by-database
-https://stackoverflow.com/questions/29765589/purpose-of-custom-cache-mule
-https://www.mulesoft.org/docs/site/3.8.0/apidocs/org/mule/api/store/ObjectStore.html
-https://github.com/Ricston/mule-object-store-jdbc
-
-https://docs.mulesoft.com/mule-user-guide/v/3.7/object-store-module-reference
-https://forums.mulesoft.com/questions/48314/how-to-create-persistent-object-store-using-sql-da.html
+https://lingohub.com/blog/2014/07/elasticsearch-tutorial-part-elasticsearch-data-mapping/
+https://stackoverflow.com/questions/29671524/kibana-how-to-display-log-as-table
+https://blog.realworldfullstack.io/real-world-app-part-14-faceted-search-with-elasticsearch-and-angular-material-data-table-d90ebaf2ee4b
+https://www.dremio.com/tutorials/elasticsearch-sql-query-multiple-indexes/
+https://zeppelin.apache.org/docs/0.6.1/interpreter/elasticsearch.html
+https://stackoverflow.com/questions/32920932/how-to-convert-the-elasticsearch-json-output-in-a-table
+https://mapr.com/blog/how-set-mapr-db-elasticsearch-replication/
+https://zeppelin.apache.org/docs/0.6.1/interpreter/elasticsearch.html
+https://www.elastic.co/guide/en/kibana/6.0/watcher-create-advanced-watch.html
