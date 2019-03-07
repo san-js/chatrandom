@@ -9,6 +9,8 @@ To run client: yarn start
 ---
 https://www.jqueryscript.net/table/Inline-Table-Editing-jQuery-Tabledit.html
 
+https://www.usability.gov/what-and-why/user-experience.html
+
 https://github.com/appbaseio/reactivesearch/tree/dev/packages/web
 
 https://medium.appbase.io/v2-ui-components-for-elasticsearch-23743d9a1070
