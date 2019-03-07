@@ -7,6 +7,8 @@ To run server:  nodemon server/app.js
 ---
 To run client: yarn start
 ---
+https://www.jqueryscript.net/table/Inline-Table-Editing-jQuery-Tabledit.html
+
 https://github.com/appbaseio/reactivesearch/tree/dev/packages/web
 
 https://medium.appbase.io/v2-ui-components-for-elasticsearch-23743d9a1070
