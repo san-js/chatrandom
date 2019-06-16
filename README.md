@@ -7,8 +7,13 @@ To run server:  nodemon server/app.js
 ---
 To run client: yarn start
 ---
-https://www.jqueryscript.net/table/Inline-Table-Editing-jQuery-Tabledit.html
 
+https://dzone.com/articles/content-enrichment-using-mule-message-enricher-com
+https://dzone.com/articles/message-enricher-with-mulesoft
+https://dzone.com/articles/implementing-message-enrichment-in-mulesoft?fromrel=true
+https://dzone.com/articles/control-message-format-inside-message-enricher?fromrel=true
+
+--------
 https://www.usability.gov/what-and-why/user-experience.html
 
 https://github.com/appbaseio/reactivesearch/tree/dev/packages/web
