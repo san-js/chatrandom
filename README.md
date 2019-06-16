@@ -9,8 +9,11 @@ To run client: yarn start
 ---
 
 https://dzone.com/articles/content-enrichment-using-mule-message-enricher-com
+
 https://dzone.com/articles/message-enricher-with-mulesoft
+
 https://dzone.com/articles/implementing-message-enrichment-in-mulesoft?fromrel=true
+
 https://dzone.com/articles/control-message-format-inside-message-enricher?fromrel=true
 
 --------
