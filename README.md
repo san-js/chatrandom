@@ -7,6 +7,7 @@ To run server:  nodemon server/app.js
 ---
 To run client: yarn start
 ---
+https://www.snowflake.com/wp-content/uploads/2019/08/Data-Modeling-in-the-Age-of-JSON.pdf
 
 https://dzone.com/articles/content-enrichment-using-mule-message-enricher-com
 
