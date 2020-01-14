@@ -7,17 +7,15 @@ To run server:  nodemon server/app.js
 ---
 To run client: yarn start
 ---
-https://pmimeetings2.webex.com/pmimeetings2/onstage/g.php?MTID=ed3d1c0e63a5505f558909c8ee44f2d22  
+https://www.elastic.co/blog/found-java-clients-for-elasticsearch
 
-https://www.snowflake.com/wp-content/uploads/2019/08/Data-Modeling-in-the-Age-of-JSON.pdf
+https://dzone.com/articles/elasticsearch-with-spring-boot-application
 
-https://dzone.com/articles/content-enrichment-using-mule-message-enricher-com
+https://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/#preface
 
-https://dzone.com/articles/message-enricher-with-mulesoft
+https://www.baeldung.com/spring-data-elasticsearch-tutorial
 
-https://dzone.com/articles/implementing-message-enrichment-in-mulesoft?fromrel=true
-
-https://dzone.com/articles/control-message-format-inside-message-enricher?fromrel=true
+https://piotrminkowski.com/2019/03/29/elasticsearch-with-spring-boot/
 
 --------
 https://www.usability.gov/what-and-why/user-experience.html
