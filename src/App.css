@@ -1,115 +1,160 @@
+Category: Complex Adaptive Systems
+Constraints and emergence
+January 25, 2018 by Marcus Jenal
+Besides attractors, constraints are an important way of describing and understanding dynamics in complex and emergent systems. There are different types of constraints and different ways these act in complex adaptive systems. What they have in common is that without any type of constraint, there would only be randomness and all possible outcomes would have the same probability. So, for any sort of order to evolve, there is a need for some sort of constraints. In that sense, constraints are the origin of both complexity and order.
 
-.App {
-  background-color: #1EE494;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+Governing and enabling constraints
+Constraints can either be governing or enabling. Governing constraints hinder actors to do something or only allow them to do it in a certain way. Enabling constraints make it possible for actors to do something that would not be possible otherwise (Juarrero, 1999). An example of a governing constraint would be a law that prevents companies from colluding, while an example of an enabling constraint would be legislation that enables people to establish companies which have certain rights and privileges. Governing constraints can also be physical, like walls or fences that prevent people from going somewhere; or they can be social like norms and taboos. An enabling constraint is for example kinship, as it enables humans to trust each other by binding them together.
 
-.chatroom {
-  width: 360px;
-  height: 618px;
-  background-color: rgba(0,0,0, .7);
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0 0 8px 0 rgba(0,0,0, 0.3);
-}
+Juarrero (1999:133) takes a physiological example to explain governing constraints:
 
-.chatroom h3 {
-  font-family: 'Pacifico', cursive;
-  background-color: rgba(30, 228, 148, 0.7);
-  color: #FFF;
-  margin: 0;
-  height: 40px;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+[T]he physical link between the tibia and the peronei on the one hand and the knee joint on the other systematically constrains the movement of the lower leg. As a result of the connection, the tibia’s physiology is not independent of the knee; the linkages creates an orthopaedic system that controls the tibia in ways to which it would not have been limited otherwise. … In this example, a constraint represents a contraction of the lower leg’s potential range of behaviour: the lower leg has less freedom of movement, given its connection with the knee, than it would have otherwise.
 
-.App .chats {
-  text-align: left;
-}
-.chatroom .chats {
-  color:rgba(255, 255, 255, 0.8);
-  box-sizing: border-box;
-  padding: 0 20px;
-  margin: 10px 0 0;
-  height: 510px;
-  overflow-y: scroll;
-}
+Constraints are enabling when they generate some certainty while still giving sufficient leeway for new ideas to emerge and be implemented. Going back to the example of kinship: being in a clan means that there are certain rules of behaviour everybody adheres to – constraints are governing and create predictability. At the same time, this ability to predict the behaviour of others allows individuals to do things they would not be able to do otherwise. For example one person can specialise in a specific trade like carpentry while being sure that others will produce the food that is needed for the carpenter’s family to survive – the constraints become enabling. Enabling constraints are not fixed but continuously evolve to adapt to new realities – such as for example the emergence of new professions or the establishment of trade with people outside the clan.
 
-.chatroom .chats .chat {
-  background: rgba(255, 255, 255, 0.8);
-  position: relative;
-  padding: 5px 13px;
-  font-size: 14px;
-  border-radius: 10px;
-  list-style: none;
-  float: left;
-  clear: both;
-  margin: 10px 0;
-  max-width: 200px;
-}
+Dave Snowden uses the metaphor of endoskeletons and exoskeletons to differentiate between governing and enabling constraints (Snowden, 2015):
 
-.chatroom .chats .chat img {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  position: absolute;
-  top: -10px;
-  left: 0px;
-}
+The external constraint of an insect’s skeleton bounds its nature [it is governing], while the endoskeleton of a mammal allows for significant variation around a coherence centre [it is enabling].
 
-.chatroom .chats .chat.right {
-  float: right;
-  clear: both;
-}
+If constraints become too narrow and rigid, nothing new can emerge, which can be a risk for a community or society as diversity and novelty are required to build resilience.
 
-.chatroom .chats .chat a {
-  text-decoration: none;
-  color:#3498DB;
-}
+Context-free and context-sensitive constraints
+Juarrero (1999) further differentiates between context-free and context-sensitive constraints.
 
-.chatroom .input {
-  height: 40px;
-  width: 100%;
-  background: rgba(30, 228, 148, 0.7);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+Context-free constraints are always effective in the same way, no matter in what context you are. To take the example of the physiology of the knee from above, the liberties of the lower leg are always the same – given the correct functioning of the knee – no matter if you are running a marathon, climbing a mountain or go for a stroll at the beach on Sunday afternoon. They also do not depend on who you are with or what time of the day it is. They are not related in any way with the context. Other example of context-free constraints are the laws of physics (gravity works no matter the context) or the probability of the occurrence of a certain letter in the English language (es have a higher prior probability  than xs or zs).
 
-.chatroom .input input[type="text"] {
-  background: rgba(255, 255, 255, 0.5);
-  outline: 0;
-  border: 2px solid #1EE494;
-  padding: 0 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  margin-left: 10px;
-  height: 30px;
-  width: 270px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
+Context-sensitive constraints, in turn, are dependent on the context. Juarrero (1999:137) again uses language as an example:
 
-.chatroom .input input[type="submit"] {
-  background: transparent;
-  border: 1px solid #1EE494;
-  height: 30px;
-  width: 70px;
-  font-size: 14px;
-  box-sizing: border-box;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+Some letters or words are more likely or unlikely to occur, not just because of the prior probability distribution of letters in that language, but also depending on the letter or sequence of letters, word or sequence of words that preceded them. … the rules of conventional English dictate that the occurrence of the letter q raises the probability that the next letter will be a u and decreases to virtually zero the probability that the next letter will be another q.
 
-.chatroom .input input[type="submit"]:hover {
-  background: #1EE494;
-  color: #FFF;
-}
+A lot of constraints that shape human behaviour are context sensitive. Whether I drive on the right or left side of the road depends on the context I find myself in. Also whether I tip waiters or not, whether I kiss good friends on the cheek to welcome them, whether dress in a certain way, etc. depends very much on the context. The fact that I cannot fly without any aid, however, is a context-free constraint as it is always applying.
+
+Constraints, emergence, and how systems come about
+Context-sensitive constraints enable, from bottom-up, complex systems to emerge in the first place, with novel properties that the isolated parts lack.
+
+“[I]f particles are independent of one another, no increase in number will ever produce organisation.” (Juarrero 1999:136). No amount of sand you add to a pile will suddenly turn the pile into a sand castle. However, when particles, molecules or other elements of systems become inter-related, something else can happen (Juarrero 1999:139):
+
+A complex dynamical system emerges when the behaviour of each molecule suddenly depends both on what the neighboring molecules are doing and what went before. When components, in other words, suddenly become context-dependent.
+
+Once elements (whether you look at particles, molecules or, indeed, humans) constrain each other in a context-sensitive way, they become inter-related and potentially inter-dependent; through their inter-relation, they have become a system.
+
+Once the probability that something will happen depends on and is altered by the presence of something else, the two have become systematically and therefore internally related (Juarrero 1999:139).
+
+This process is often called emergence. Through the inter-related elements the system emerges as a new thing (a “systematic whole”) and at the same time the inter-relation makes the elements become part of that system.
+
+The emergence of the “systematic whole” or the “system” is based on a new level of organisation among the elements. At the same time, it adds a new set of behavioural alternatives to the emergent system as a whole. In turn, being part of a system adds a new layer of constraints to the elements, reducing the behavioural alternatives of the individual elements to keep them in line with the new level of organisation – a type of control hierarchy that keeps the system intact. Juarrero (1999) calls this the emergence of second-order contextual constraints (as opposed to the first-order contextual constraints that act between elements on the same level).
+
+Second-order contextual constraints act from top-down, they are in the service of the system and preserve it (Juarrero 1999:143):
+
+By making its components interdependent, thereby constraining their behavioral variability, the system preserves and enhances its cohesion and integrity, its organisation and identity.
+
+So in a way, the system becomes a “thing” with its own dynamics and constraining influence on its elements without being something physical (Juarrero 1999:144):
+
+As distributed wholes, complex adaptive systems are virtual governors that give orders to themselves … The orderly relationships that characterise the structure of [a system] as a whole are the context that “gives orders” to its components.
+
+Or, to paraphrase Winston Churchill (UK Parliament n.d.):
+
+We shape our structures and afterwards our structures shape us.
+
+The emergent level is qualitatively different from the earlier one, it can access a renewed pool of alternative behavioural options, which makes these bottom-up context-sensitive constraints enabling constraints.
+
+To come back to the sample of kinship: each individual, if being independent, would have to be able to perform all different duties to keep alive. Once the individuals become inter-related through their family relationships, however, new behavioural options open up. Individuals can specialise in a certain trade, for example. At the same time, being part of that emergent whole also constraints the options of individuals, for example by prescribing how a member of the clan has to act or by requiring its members to perform certain rituals to identify with the clan’s identity or hierarchy. The organisational level of the clan (the systematic whole) emerges form the bottom up through the inter-relationships between its individual members. Once established, it constraints, top-down, the abilities of these same members, while allowing them to access opportunities they would not have had individually – the clan as a whole is able to do more than all individuals taken together.
+
+The emergence of a system, thus, requires the interlocking of bottom-up context-sensitive constraints that create a new level of inter-relation and self-organisation among its elements. Or in other words (Juarrero 1999:145):
+
+The global level, which in one sense is nothing more than the combined enabling constraints correlating components at the lower level, is at the same time the locus of emergent properties. You can write a book; the blastula from which you developed could not.
+
+Path dependence as a type of constraint
+In complex systems, history matters – indeed, what was before constrains a system’s possibilities now. Feedback loops incorporate the effects of time into the states and behavioural patterns of complex system (Juarrero, 1999). This becomes very clear when looking at economic institutions. The scaffolding of laws, norms and values that has been built over time constraints the current possibilities of actors in an economy – they define what is possible and what is not. This makes complex systems path dependent – the past shapes future trajectories.
+
+Constraints and Cynefin
+Dave Snowden uses constraints to differentiate between the different domains in his Cynefin framework (Snowden, 2015). In the obvious domain, constraints are fixed, there is no ambiguity and only one option how to act. In the complicated domain, constraints are governing, allowing for some choice of options while ensuring repeatability and, hence, predictability. In the complex domain, constraints are enabling; they give coherence while allowing for variety. The constraints co-evolve with the context. In the complex domain, there are no constraints, which makes true novelty possible – but for the cost of a loss of coherence.
+
+A typology of constraints
+Dave Snowden has more recently developed a typology of constraints based on his extensive work with complexity (Snowden 2016, 2017). For Snowden, constraints in a complex system can be mapped and managed. In contrast to causal loop mapping, for example, which mainly tries to reduce complexity, mapping constraints tries to uncover some dynamics in a complex system that can be influenced (Snowden 2016).
+
+Snowden distinguishes between a number of constraints that are either robust or resilient (Snowden 2016).
+
+Robust constraints:
+
+Fixed or rigid constraints are clearly visible and known – examples are walls or fences. They are predictable and can be enforced, but can become brittle and fail catastrophically.
+Elastic constraints have a certain leeway but can also break or snap back if overstretched – Snowden uses the example of an elastic waist band, which may give you the illusion of maintaining a healthy weight but only for a time.
+Tethers are like ropes that only snap in place once fully extended. An example is quotas, which cannot be felt until they are reached, after which they constrain any further access. Snowden warns of the danger of damage when they snap into effect, both for the object being tethered and for the tether itself.
+Resilient constraints:
+
+Permeable constraints are, as the name says, permeable. This means they can allow some things to pass while others cannot – the constraint is contingent. What can pass can be managed. Think of boarders, where some people can pass while others cannot.
+Contextual constraints adapt to the context and can adapt over time to a changing context. An example is a heuristic, which gives a general orientation (rule of thumb) but can, and in many cases has to, be adapted to the context.
+Dark constraints are not visible but still effective. Snowden uses aspects of organisational culture or taboos, rituals and the like as examples for dark constraints. He cautions that they are far more prevalent in modern organisations than people realise.
+Snowden defines robust and resilient as follows (Snowden 2017):
+
+A robust system is one that survives as is, or with only minor modifications (Shoring it up until Christmas might resonate with older British readers). It can be known, defined and provides a clear boundary state or type of linkage which is explicit in nature.
+A resilient system is one that survives with continuity of identity over time, but it survives by changing and that change may not be explicit or easily understood. Taleb’s anti-fragility fits here and I don’t buy his argument for difference. Self-healing systems, those that become more resilient under stress have been known for a long time.
+The starting point for Snowden to engage with a complex system is to engage with the present and describe it as well as we can – using for example constraints mapping or attractor landscapes. From there, Snowden suggests a process based around three questions (Snowden 2016):
+
+What can we change?
+Out of the things we can change, where can we monitor the impact of change?
+Where we can monitor the impact, can we rapidly amplify success or recover from failure?
+References
+JUARRERO, A. 1999. Dynamics in Action: Intentional Behavior as a Complex System. Cambridge, Massachusetts; London, England: MIT Press.
+
+SNOWDEN, D. 2015. The birth of constraints to define Cynefin. Cognitive Edge Blog. [accessed 25.01.2018]
+
+SNOWDEN, D. 2016. A return to constraints. Cognitive Edge Blog. [accessed 25.01.2018]
+
+SNOWDEN, D. 2017. The knotty issue of constraints. Cognitive Edge Blog. [accessed 25.01.2018]
+
+UK PARLIAMENT. No Date. Churchill and the Commons Chamber. [accessed 29.01.2018]
+
+Posted in Complex Adaptive Systems, Foundations
+Tagged complex adaptive systems, cynefin, enabling constraints, governing constraints, path dependence, typology of constraints
+Attractors and attractor landscapes
+December 27, 2017 by Marcus Jenal
+When systems that govern behaviour emerge through human interaction (see ‘constraints and emergence‘), this novel structure becomes self-referential and self-preserving; the second-order contextual constraints maintain, streamline, and renew their systems-level organisation (Juarrero, 1999). In other words, the dynamics become embodied in an attractor that defines and enforces behavioural patterns in the system going forward. Attractors are the reason why systems generally resist change – the ones in power want to stay in power, people want to do things in a way they have always done them, new year resolutions get abandoned after a couple of days, etc.
+
+Attractors define specific behavioural patterns that actors in a system adopt. By structuring the system, attractors give the system an element of order. They alter the probability of the behaviour of the actors in the system. Social norms are examples of  attractors; they specify how we are supposed to (and usually do) behave in social situations but also what behaviour we can expect from others, thus reducing uncertainty.
+
+“Attractors thus promote stability in thought and behaviour despite changing conditions and contradictory information.” (Coleman et al., 2011:42)
+
+The behaviour of actors in an economy are defined by a multitude of attractors, building a dynamic landscape of evolving structures. Attractor landscapes constrain a system’s possible future behaviour; they define behaviours with higher and lower probability. This is often called path dependence – what is possible in the future depends on how we got to the present. To be effective in changing a system, we need to understand a system’s disposition (it’s current attractor landscape) and its propensity for change (what change is more likely and what change is less likely to happen) (Quinlan, 2017).
+
+In practice, the concept of attractors can be used in a metaphorical way to describe dynamics in social systems. Attractors describe coherent sets of values and beliefs that encode specific behavioural norms and lead to behavioural patterns. They are formed through common use of stories, metaphors and practice. The participation in a social group that shares a set of common metaphors and practices makes people more likely to adopt certain behaviours and over time it will be difficult for individuals to change the disposition that an attractor creates.
+
+Different types of attractors have different characteristics. So-called single-point attractors are relatively low in complexity and are relatively stable. They are built around one strong, dominant narrative that allows little ambiguity – they can be illustrated as a deep, narrow well in the attractor landscape. An example of a strong, single point attractor is US President George W. Bush’s statement after the 9/11 attacks: “Every nation, in every region, now has a decision to make. Either you are with us, or you are with the terrorists.” (Vonanews, 2009) Single-point attractors are usually easy to recognise but difficult to overcome. Because of their unambiguous nature, change can often only occur radically by completely switching to a competing narrative. More common in human systems are so-called strange attractors that are often formed by the common use of metaphors or myths in a community with a common culture. They give a sense of overall direction and pattern with enough ambiguity to allow diversity and contextualised adaptation – they can be illustrated as relatively wide valley in an attractor landscape, constraining the behaviour by its flanks, but allowing for some diversity on the wide valley floor. These attractors are often difficult to detect but are understood by the people in the system as ‘the way things are done around here’ (Juarrero, 1999).
+
+New attractors emerge when various enabling factors interlock to allow system actors to self-organise into a new set of interrelations and to adopt a new set of behavioural norms. This new behaviour generally entails new capabilities not accessible to the people before. Attractors cannot be purposefully engineered. To enable their emergence, change agents need to stimulate ‘enablers’ to catalyse new attractors. This can be done in the form of a portfolio of safe-to-fail experiments.
+
+The use of attractors in social change has been explored in conflict resolution and peace-building work as described by Coleman and colleagues. For them, “[a]n attractor represents a narrow range of mental states and actions that are experienced by a person or group. These psychological states are mutually congruent in their subjective meaning and thus provide a coherent frame of reference in processing information and deciding how to act towards others” (Coleman et al., 2011:42).
+
+attractor dynamics
+Figure 1: Example of attractor dynamics
+A simplified example of how changing attractor dynamics can be understood is shown in Figure 1.
+
+Stage 1 in Figure 1 shows an attractor landscape with two attractors. A dominant attractor (with the yellow ball) that shapes the behaviour of most people, and a latent attractor (with the green ball). Taking an example from Local Economic Development, the dominant attractor shapes the view entrepreneurs from a nearby city have about a rural area. They think it is remote and difficult to access and not viable for business. Their opinion is formed based on their current business model, their logistics arrangements, infrastructure, by observing other businesses, etc. All of these elements build the disposition of the current situation, embodied in the attractor. The latent attractor could be formed by a business who bucks the trend. It has designed its business model and arranged its operations in a way that make the rural area a viable place for business.
+
+In stage 2 of Figure 1, there are three dynamics that change the attractor landscape. Firstly, the latent attractor gets stronger, i.e. receives more energy. This could be because the outlier company is successful in their business in the rural area. Secondly, the dominant attractor gets weaker. This could be due to a very competitive situation in the city where businesses that focus there start loosing business. Thirdly, the ridge between the attractors becomes smaller, i.e. the energy that is used to cross it is lower. This could be for example because new infrastructure is built in the rural areas or because the outlier company (which is a first mover) has developed business models others can easily copy.
+
+In stage 3, the yellow ball has vanished and the latent attractor has now become dominant. Views about business in the rural areas are more positive, but the wider valley of the attractor shows that there is also more ambiguity in terms of the behaviour as a response to that view.
+
+The evolution of physical technology is an other example where the metaphor of attractors is useful. The evolution is shaped by successive technological paradigms. These paradigms are embodied in dominant attractors that structure thought. Dosi and Nelson (2010:67) describe technological paradigms as “cognitive frames shared by technological professionals in a field that orient what they think they can do to advance a technology.” Ideas on how to solve technological problems are shaped by the attractor; they are more likely to follow the logic of the current technological paradigm (e.g. using the printing press) than to break with it (e.g. use digital content distribution). The attractor influences both what perspectives are considered (who is asked for ideas) as well as the search heuristics applied. People will, however, inevitably tinker with innovations belonging to new technological paradigms, which creates latent attractors – attractors that are not yet dominant but can be clearly discerned. If in the selection criteria in the evolutionary process shift, a small innovation based on the thinking of a latent attractor can be selected and amplified throughout the system, this can lead to a tipping point and regime shift through which the latent attractor becomes the new dominant attractor and the technological paradigm shifts. This dynamic is often illustrated in subsequent technological S-curves (Foster, 1986).
+
+From an institutional perspective two distinct institutional arrangements can be characterised as examples of distinct system dispositions. On the one hand, there is an institutional regime that features policies that are designed to generate rents and protections that keep the dominant ruling coalition stable. On the other hand, there are institutional regimes that promote open access to political, economic, social and intellectual infrastructure (Shirley, 2008). Development generally seeks to achieve a regime shift from the former to the latter.
+
+Resources
+COLEMAN, P.T., VALLACHER, R., BARTOLI, A., NOWAK, A. & BUI-WRZOSINSKA, L. 2011. Navigating the landscape of conflict: Applications of dynamical systems theory to addressing protracted conflict. In The Non-Linearity of Peace Processes Theory and Practice of Systemic Conflict Transformation. Körppen, D., Ropers, N. & Giessmann, H.J. (Eds.), Leverkusen, Germany: Barbara Budrich Publishers.
+
+DOSI, G. & NELSON, R.R. 2010. Technical Change and Industrial Dynamics as Evolutionary Processes. In Handbook of the Economics of Innovation. Bronwyn, H.H. & Nathan, R. (Eds.), Amsterdam: North-Holland, pp. 51-127.
+
+FOSTER, R. 1986. Innovation: the Attackers Advantage. New York: Summit Books.
+
+JUARRERO, A. 1999. Dynamics in Action: Intentional Behavior as a Complex System. Cambridge, Massachusetts; London, England: MIT Press.
+
+QUINLAN, T. 2017. SenseMaker contours of narrative – How a culture might evolve, where a culture won’t shift. Narrate Blog. Published 12 October 2017.
+
+SHIRLEY, M.M. 2008. Institutions and Development: Advances in New Institutional Analysis. Cheltenham, UK: Edward Elgar.
+
+VONANEWS. 2009. Bush: ‘You Are Either With Us, Or With the Terrorists’ – 2001-09-21. Published 27 October 2009.
+
+ 
+
+Posted in Complex Adaptive Systems, Foundations
+Tagged behavioural patterns, disposition, emergence, metaphors, path dependence, safe-to-fail experiments, single-point attractors, stories, strange attractors, system structure
