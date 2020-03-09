@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+https://dev.to/jeetmp3/getting-started-with-graphql-java-53j1
+
+https://www.viralpatel.net/graphql-spring-boot-tutorial/
+
+https://springframework.guru/using-graphql-in-a-spring-boot-application/
+
+https://www.javadevjournal.com/spring-boot/spring-boot-graphql/
+
+https://itnext.io/beginners-guide-to-graphql-with-spring-boot-69d229e87b19
+
+https://pragmaticcoders.com/blog/how-to-use-graphql-in-spring-boot/
+
+https://blog.couchbase.com/processing-graphql-queries-with-java-spring-boot-and-nosql/
+
+https://www.javacodegeeks.com/2017/12/gentle-intro-graphql-java-world.html
+
+https://jitpack.io/p/dminkovsky/graphql-java
+
+https://dzone.com/articles/a-beginners-guide-to-graphql-with-spring-boot
+
 ---
 To install the project: yarn install
 ---
